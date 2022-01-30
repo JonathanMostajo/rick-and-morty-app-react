@@ -1,0 +1,24 @@
+.c-header {
+  background-color: rgba(128, 128, 128, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+
+  &__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    &--link {
+      color: whitesmoke;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 700;
+      border: 2px solid transparent;
+      &.active {
+        border-bottom: 4px solid silver;
+      }
+    }
+  }
+}

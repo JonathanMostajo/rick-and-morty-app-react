@@ -1,0 +1,17 @@
+.div-app {
+  height: 100%;
+  text-align: center;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px);
+  color: white;
+}

@@ -1,0 +1,12 @@
+.c-pagination{
+    display: flex;
+    justify-content: center;
+    &__button{
+        background-color: rgba(128, 128, 128, 0.6);
+        padding: 16px;
+        border: 4px solid silver;
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+}
