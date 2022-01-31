@@ -1,48 +1,19 @@
 .location-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    color: whitesmoke;
-  
-    &__item {
-      width: 300px;
-      background-color: rgba(128, 128, 128, 0.6);
-      border-radius: 10px;
-      padding: 35px 0;
-      font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  color: whitesmoke;
 
-      &--image{
-          width: 100%;
-      }
+  &__item {
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 10px;
+    padding: 35px 0;
+    font-size: 20px;
+
+    &--image {
+      width: 100%;
     }
-
   }
-
-
-
-/* .location-page{
-    height: 100%
 }
-
-.location-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    color: whitesmoke;
-  
-    &__item {
-      &--name {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        background-color: rgba(128, 128, 128, 0.6);
-        font-size: 20px;
-      }
-  
-      &--image {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-      }
-    }
-  } */

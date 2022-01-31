@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import CharactersPage from "./pages/CharactersPage/CharactersPage";
 import HomePage from "./pages/HomePage/HomePage";
 import LocationsPage from "./pages/LocationsPage/LocationsPage";
+import Searcher from "./pages/Searcher/Searcher";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="characters" element={<CharactersPage />} />
             <Route path="locations" element={<LocationsPage />} />
+            <Route path="search" element={<Searcher/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

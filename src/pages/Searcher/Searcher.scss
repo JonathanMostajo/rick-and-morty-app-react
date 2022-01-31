@@ -1,0 +1,35 @@
+.div-searcher {
+  color: whitesmoke;
+
+  .input-search {
+    margin: 0 10px;
+    border-radius: 7px;
+    border: transparent;
+  }
+  .btn-search {
+    cursor: pointer;
+    color: whitesmoke;
+    margin: 0 10px;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 7px;
+    border: 1px solid whitesmoke;
+
+    &:active {
+      transform: scale(0.98);
+      box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    }
+  }
+  .character-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+      width: 300px;
+      background-color: rgba(128, 128, 128, 0.6);
+      border-radius: 10px;
+      padding: 35px 0;
+      font-size: 20px;
+    }
+  }
+}
