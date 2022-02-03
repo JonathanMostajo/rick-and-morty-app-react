@@ -1,0 +1,15 @@
+.profile-card{
+display: flex;
+align-items: center;
+justify-content: center;
+color: whitesmoke;
+
+    &__img{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* &__h4{
+        color: whitesmoke;
+    } */
+}
